@@ -13,6 +13,8 @@ This paper explores a method for storing settings in a manner that allows those 
 
 Find the complete paper here:
 
+[Academia.edu - Simulating DNA using Cellular Automation](]https://www.academia.edu/127849886/Simulating_DNA_Using_Cellular_Automaton?source=swp_share)
+
 ## Installation
 
 Clone the repo
