@@ -1,0 +1,9 @@
+Gender|LoadProtien("./y-protien.dna",$TheMatrix,true);::LoadProtien("./x-protien.dna",$TheMatrix,false);|SetTrait($TheMatrix,"gender",Array("male","male","female"),$Traits);
+Eye Color|LoadProtien("./b-protien.dna",$TheMatrix,True);::LoadProtien("./x-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"eye color",Array("blue","brown","green","blue","blue"),$Traits);
+Inhibition_Left|LoadProtien("./b-protien.dna",$TheMatrix,True);::LoadProtien("./y-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"Inhibition_Left",Array(4,5,6,7,8),$Traits);
+Encoding_Left|LoadProtien("./checker-board-1.dna",$TheMatrix,True);::LoadProtien("./y-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"Encoding_Left",Array(3,4,5),$Traits);
+Inhibition_Right|LoadProtien("./b-protien.dna",$TheMatrix,True);::LoadProtien("./x-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"Inhibition_Right",Array(4,5,6,7,8),$Traits);
+Encoding_Right|LoadProtien("./checker-board-2.dna",$TheMatrix,True);::LoadProtien("./x-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"Encoding_Right",Array(3,4,5),$Traits);
+Curiousity|LoadProtien("./checker-board-2.dna",$TheMatrix,True);::LoadProtien("./b-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"Curiosity",Array(10,11,12,13,14,15),$Traits);
+ShortTermmax|LoadProtien("./checker-board-1.dna",$TheMatrix,True);::LoadProtien("./b-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"ShortTermMax",Array(6,7,8,9,10),$Traits);
+Shyness|LoadProtien("./checker-board-2.dna",$TheMatrix,True);::LoadProtien("./o-protien.dna",$TheMatrix,False);|SetTrait($TheMatrix,"Shyness",Array(6,8,36,64,216,512),$Traits);
